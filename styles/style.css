@@ -1,0 +1,92 @@
+header
+{
+    background-image: url(../images/gettyimages-852110414-2048x2048.jpg);
+    background-size: cover;
+    height: 800;
+    color: darkgray;
+    border: 2px solid orange;
+}
+
+body
+{
+    background-color: grey;
+}
+
+nav
+{
+ padding: inherit;
+    border: 2px double orange;
+    background-color: black;
+    width: 100%;
+    float: center;
+    text-align: center;
+    font-size: 2em;
+}
+
+#active
+{
+    background-color: darkorange;
+}
+
+nav ul li:hover
+{
+    background-color: grey;
+}
+
+section.maintext
+{
+    overflow: auto;
+}
+ 
+.image
+{
+    float: right;
+    width: 50%;
+    border: 1px solid darkorange;
+    margin: auto;
+}
+#content
+{
+    float: left;
+    width: auto;
+    margin-right: auto;
+
+}
+
+footer
+{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: orange;
+    border: 2px double darkorange;
+}
+
+footer ol li
+{
+    display: inline;
+    padding: 20px;
+}
+
+.menulist
+{
+    
+    list-style: armenian;
+}
+
+table
+{
+    background-color: darkorange;
+    text-align: center;
+    border: 2px double black;
+}
+
+.column
+{
+    column-rule: 4px solid orange;
+    column-rule-style: dotted;
+    column-fill: auto;
+    column-count: 2;
+    padding: 4px
+}
